@@ -1,44 +1,51 @@
- <!DOCTYPE html>
- <html lang="es">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Viajes</title>
-     <link rel="stylesheet" href="styles.css">
- </head>
- <body>
+<!DOCTYPE html>
+<html lang="es">
 
-     <header>
-        <h1>bienvenidoS</h1>
-         <nav>
-             <ul>
-                 <li><a href=""></a></li>
-             </ul>
-         </nav>
-     </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-     <main>
-         <!-- Foto principal -->
-         <section class="banner">
-             <img src="banner/5.jpg" alt="">
-         </section>
+<body>
 
-         <!-- Destinos recomendados (Con JS)-->
-         <section class="recommended">
-             <h2>Recomendados</h2>
-             <div id="cards"></div>
-         </section>
+    <header>
+        <h1>PRÁCTICA DOM</h1>
+        <nav>
+            <ul>
+                <li><a href="#recommended">Recomendados</a></li>
+                <li><a href="#destinations">Destinos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-          <!-- Selector de destinos (Con JS)-->
-         <section class="search-engine">
+    <main>
+        <h2>Bienvenidos</h2>
+        <!-- Foto principal -->
+        <section class="banner">
+            <img src="banner/5.jpg" alt="">
+        </section>
+
+        <!-- Destinos recomendados (Con JS)-->
+        <section class="recommended">
+            <h2>Recomendados</h2>
+            <div id="recommended"></div>
+        </section>
+
+        <!-- Selector de destinos (Con JS)-->
+        <section class="search-engine">
             <h2>Destinos</h2>
-             <select id="destinations"></select>
-         </section>
-     </main>
+            <select name="destination" id="destinations">
+                
+            </select>
+        </section>
+    </main>
 
-     <footer>
-     </footer>
+    <footer>
+    </footer>
 
-     <script src="script.js"></script>
- </body>
- </html>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
